@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import FilmContainer from './containers/FilmContainer.jsx'
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> Films where John Malkovich Acts or Directs</h1>,
+    <FilmContainer />,
     document.getElementById('app')
   );
 }
